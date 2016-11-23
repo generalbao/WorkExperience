@@ -1,0 +1,11 @@
+2016年11月23日09:42:55
+
+1 前后台交互一般用json   php header('content-type:application/json');
+  读取数据的时候 可以
+  $res['res'] = yes/no;
+  $res['data'] = json_encode($data);
+  
+  增删改
+  $res['res'] = yes/no;
+  $res['reason'] = 'reason';            //失败原因
+  
